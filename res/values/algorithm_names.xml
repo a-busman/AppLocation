@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="algorithms_array">
+        <item>Max Distance</item>
+        <item>Beacon Neighbours</item>
+    </string-array>
+</resources>

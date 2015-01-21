@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF59B5FF"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:padding="15dp"
+        android:text="@string/edit_space"
+        android:textColor="#FFFFFF"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editSpaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:imeOptions="actionGo|flagNoFullscreen"
+        android:inputType="textCapWords" />
+
+</LinearLayout>
